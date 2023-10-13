@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "NCS-1", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "NCS-2", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "NCS-3", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "NCS-4", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "NCS-5", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "NCS-6", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "NCS-7", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "NCS-8", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "NCS-9", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "NCS-10", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -107,3 +107,13 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
 })
+
+
+
+// git init - initialise repo
+// git add . - add files into the folder which will be pushed
+// git status - it will show the files ready to be pushed
+// git commit -m 'your message' - You can create a commit message by git commit -m         'your message', which adds the change to the local repository.
+// git remote add origin 'your_url_name'- to add a remote origin source
+// git remote remove origin - to remove the origin (if you have cloned from an external repo than you will have to use this command).
+// git push -u origin master- it will add the files on github
